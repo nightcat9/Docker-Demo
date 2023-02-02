@@ -1,0 +1,32 @@
+* {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.banner-image{
+    background-image: url("../images/home-hero.jpg");
+    background-size: cover;
+}
+
+body{
+    background-image: url("../images/background2.jpg");
+}
+
+.navbar-brand{
+    color: #8a9a5b;
+}
+
+.nav-link{
+    color: #6082B6;
+}
+
+h1{
+    text-transform: uppercase;
+    font-family: 'Bangers', cursive;
+    font-size: 4rem;
+    margin-top: 3%;
+    color: #15133C;
+}
+
+.row{
+    margin-bottom: 3%;
+}
