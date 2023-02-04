@@ -1,5 +1,5 @@
 <?php
-$db = @mysqli_connect('localhost',
-            'fwolfeil',
-            '000517416',
-            'fwolfeil') or die('Error connecting to database.');
+$db = @mysqli_connect(getenv('MYSQL_HOST'),
+            getenv('MYSQL_USER'),
+            getenv('MYSQL_PASSWORD'),
+            getenv('MYSQL_DATABASE')) or die('Error connecting to database.');
