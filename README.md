@@ -40,7 +40,7 @@ docker compose down
 * Create new branch "php-lab-1", commit often.
 * Replace "The World" example with your PHP final.
   * Create an export of the tables used in your final.
-  * Replace the world.sql with your export.
+  * Replace the world1.sql with your export.
   * Replace php files in "html" folder.
   * Update environment variables and database connection.
 * Commit, push, and test. Test by creating a new clone of your repo and try launching the environment.

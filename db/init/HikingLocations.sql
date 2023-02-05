@@ -41,11 +41,11 @@ CREATE TABLE `HikingLocations` (
 --
 
 INSERT INTO `HikingLocations` (`LocationID`, `StateID`, `LocationName`, `ReviewerName`, `Description`, `Rating`) VALUES
-                                                                                                                     (1, 1, 'Walls of Jericho Trail', 'Mikey', 'Great hike. Beautiful trail. I only made it to the first waterfall, so I will definitely be going back.  ', 5),
-                                                                                                                     (3, 1, 'Monte Sano State Park', 'Chunk', 'Awesome hike with a beautiful waterfall! It was the most amazing thing I ever saw!', 2),
-                                                                                                                     (4, 1, 'Oak Mountain Park Red Trail', 'Sloth', 'Great trail with fabulous views.', 5),
-                                                                                                                     (7, 10, 'The park', 'Tyler', 'Georgia is a city?', 2),
-                                                                                                                     (8, 49, 'Lion\'s Den', 'Josh', 'Grafton', 4);
+(1, 1, 'Walls of Jericho Trail', 'Mikey', 'Great hike. Beautiful trail. I only made it to the first waterfall, so I will definitely be going back.  ', 5),
+(3, 1, 'Monte Sano State Park', 'Chunk', 'Awesome hike with a beautiful waterfall! It was the most amazing thing I ever saw!', 2),
+(4, 1, 'Oak Mountain Park Red Trail', 'Sloth', 'Great trail with fabulous views.', 5),
+(7, 10, 'The park', 'Tyler', 'Georgia is a city?', 2),
+(8, 49, 'Lion\'s Den', 'Josh', 'Grafton', 4);
 
 --
 -- Indexes for dumped tables
